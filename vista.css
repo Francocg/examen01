@@ -1,0 +1,117 @@
+#Fondo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+#Con{
+ 
+    margin-left: 240px;
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    background: wheat;
+    margin-top: 40px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    margin: auto;
+    padding: auto;
+    background-image: url(../Image/auto.jpg);
+}    
+
+@font-face{
+    font-family: fuentes;
+    src: url(../Image/GreatVibes-Regular.ttf)
+        
+}
+header{
+    height: 150px;
+    width: 1000px;
+    
+}
+nav{
+    height: 100px;
+    width: 1000px;
+    
+}
+#Uno{
+    float: left;
+    height: 150px;
+    width: 150px;
+
+}
+#Dos{
+    float: left;
+    height: 150px;
+    width: 850px;
+    margin-top: 40px;
+    
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    
+    font-family: fuentes;
+    
+}
+.b{
+    float: left;
+    width: 250px;
+    font-family: Bad;
+    height: 100px;
+    background: yellowgreen;
+
+}
+.bt{
+    color:black;
+    background:green;
+    font-family: Bad;
+    border: none;
+    width: 250px;
+    height: 100px;
+   
+   
+}
+#bienvenida{
+   
+    color: red;
+    font-family: Bad;
+    margin-top: 200px
+
+   
+    
+}
+#buscar{
+    
+    text-align: center;
+    width: 700px;
+    font-family: Bad;
+    margin-left: 20px
+    
+    
+
+}
+#table1{
+    margin: 0 auto;
+}
+.t{
+    border: black 1px solid;
+    width: 150px;
+    font-family: Bad;
+}
+.table{
+    margin: 0 auto;
+    background:yellowgreen;
+}
+#clientes,#venta,#productos{
+    display: none;
+}
